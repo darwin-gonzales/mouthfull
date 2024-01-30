@@ -1,53 +1,71 @@
-<h1>AgenceX Landing page</h1>
+<p align="center">
+  <img src="assets/gh-banner.png" alt="Cannonbal Theme Banner">
+</p>
 
-A simple landing page for a digital agency
+<br/>
+<div align="center">
+  <a href="https://twitter.com/littlesticksdev">
+  <img src="assets/twitter-badge.svg" alt="Follow Little Sticks on Twitter"/>
+</a>
+  <a href="https://littlesticks.lemonsqueezy.com/checkout/buy/ce15f246-6ffb-417d-b380-0745aeef69a9">
+    <img src="assets/sponsor-badge.svg" alt="Sponsor This Repo" />
+  </a>
+  <a href="https://littlesticks.dev/discord">
+    <img src="assets/discord-badge.svg" alt="Join our Discord" />
+  </a>
+  
+</div>
+<br/>
 
-![AgenceX light Theme](./screens/demoLight.webp)
-![AgenceX Dark Theme](./screens/demoDark.webp)
+# Cannonball Splash Page 💦
 
+This is a template for a modern splash page/coming soon page inspired by [this Framer template](https://coming-soon.framer.website/).
 
-## Tools
-- TailwindCSS v3.3
-- AstroJs v3
+You can learn more about this template/theme's creation in [this YouTube video](https://www.youtube.com/watch?v=o58kSpPMuuI)
 
+## Features
 
-## 🚀 Project Structure
+- ✅ Modern Design
+- ✅ Email Signup Form
+- ✅ SEO friendly
+- ✅ Modern CSS Reset via Andy Bell
+- ✅ Fluid typography scaling via Utopia
+- ✅ Base and Page Layouts
+- ✅ A generic but flexible Button component
+- ✅ Automatic Sitemap
 
-Inside of your Astro project, you'll see the following folders and files:
+## Get Started 
 
+Customize the global site settings such as the title and description in the `src/data/settings.ts` file
+
+Set your own social profile links and icons in the `src/data/socials.ts` file
+
+<p>
+  <a href="https://stackblitz.com/github/littlesticks/cannonball">
+  <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" height="36px" />
+  </a>
+</p>
+
+OR
+
+## Local Development
+
+```sh
+npm i && npm start
 ```
-/
-├── public/
-│   ├── images/
-│   ├── logos/*
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   ├── blocks/*
-│   │   ├── cards/*
-│   │   ├── elements/*
-│   │   ├── sections/*
-│   │   ├── shared/*
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-├── package.json
-└── tailwind.config.cjs
-```
 
+## Deploy
 
-## 🧞 Commands
+Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
 
-All commands are run from the root of the project, from a terminal:
+## Sponsor
 
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:4321`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
+If you find this theme useful, please consider donating to support the continued development of it with the link below
 
+[Donate to Little Sticks](https://littlesticks.lemonsqueezy.com/checkout/buy/ce15f246-6ffb-417d-b380-0745aeef69a9)
 
+## Support
+
+Please feel free to reach out to us on our Discord if you have questions or file an issue on the repo.
+
+[Join our Discord](https://littlesticks.dev/discord)

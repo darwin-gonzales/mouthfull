@@ -1,20 +1,30 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../components/sections/Hero.astro';
-import Services from '../components/sections/Services.astro';
-import AboutUs from '../components/sections/AboutUs.astro';
-import Features from '../components/sections/Features.astro';
-import CTA from '../components/sections/CTA.astro';
-import Brands from '../components/sections/Brands.astro';
+import Layout from '../layouts/Page.astro'
+import Container from '../components/Container.astro';
+import {Icon} from 'astro-icon';
+
+const seo = {
+  title: 'Mouthfull | Indulge in every bite, make it a mouth-full delight',
+  description: 'EST.2021 | ✨HCC Registered Kitchen |📍Hutt Valley|WLG| Kapiti',
+}
 ---
 
-<Layout title="Welcome to AgenceX">
-	<main class="flex flex-col gap-y-20 md:gap-y-32 overflow-hidden">
-		<Hero/>
-		<Brands/>
-		<Services/>
-		<AboutUs/>
-		<Features/>
-		<CTA/>
-	</main>
+<style>
+  .hero__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    text-align: center;
+  }
+</style>
+
+<Layout seo={seo}>
+  <Container narrow>
+    <article class="hero__article">
+      <Icon name="mouthfull-logo" height="300px" />
+      <h1 class="fade-in">Coming Soon</h1>
+    </article>
+  </Container>
 </Layout>

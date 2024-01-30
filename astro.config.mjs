@@ -1,11 +1,15 @@
 import { defineConfig } from 'astro/config';
+import { settings } from './src/data/settings';
+import sitemap from "@astrojs/sitemap";
 
-import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind()],
-  output: 'static',
-  site: 'https://darwin-gonzales.github.io',
-  base: '/mouthfull',
+  site: settings.site,
+  integrations: [sitemap()],
+  vite: {
+    ssr: {
+      external: ["svgo"],
+    },
+  },
 });

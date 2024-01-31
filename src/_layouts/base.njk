@@ -35,7 +35,7 @@
         <link rel="apple-touch-icon" href="{{ "/assets/img/icon-180.png" | htmlBaseUrl(settings.url) | cdnify }}">
 
         <!-- styles -->
-        <link rel="stylesheet" href="/assets/css/bundle.css?v={% version %}">
+        <link rel="stylesheet" href="/assets/css/bundle.css">
 
         <!-- feeds -->
         <link rel="alternate" href="{{ "/feed/feed.xml" | locale_url | htmlBaseUrl(settings.url) }}" type="application/atom+xml" title="{{ 'meta.rssTitle' | translate }} {{ settings.meta.separator }} {{ 'meta.title' | translate }}">
@@ -65,6 +65,6 @@
         {% include "footer.njk" %}
 
         <!-- scripts -->
-        <script src="/assets/js/bundle.js?v={% version %}" defer></script>
+        <script src="/assets/js/bundle.js" defer></script>
     </body>
 </html>

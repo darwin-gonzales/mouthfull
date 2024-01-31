@@ -115,9 +115,9 @@ module.exports = eleventyConfig => {
 
     // Passthrough -------------------------------------
 
-    eleventyConfig.addPassthroughCopy({'./src/assets/files': './assets/files'})
+    eleventyConfig.addPassthroughCopy({'./src/assets/css': './assets/css'})
     eleventyConfig.addPassthroughCopy({'./src/assets/img': './assets/img'})
-    eleventyConfig.addPassthroughCopy({'./src/assets/fonts': './assets/fonts'})
+    eleventyConfig.addPassthroughCopy({'./src/assets/js': './assets/js'})
 
     // Markdown ----------------------------------------
 
